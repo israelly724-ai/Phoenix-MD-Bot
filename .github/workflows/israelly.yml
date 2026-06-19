@@ -19,13 +19,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Node.js
+    - name: israelly
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
+    - name: application
       run: npm install
 
-    - name: Start application
+    - name: israelly
       run: npm start
